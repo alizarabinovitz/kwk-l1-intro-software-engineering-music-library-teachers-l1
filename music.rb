@@ -26,3 +26,5 @@ end
 # This method should accept three arguments, the library hash, the artist, and the song.
 def add_artist(hash, artist, song)
   hash[artist] = song
+  return hash
+end
